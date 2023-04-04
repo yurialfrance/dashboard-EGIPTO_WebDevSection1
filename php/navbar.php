@@ -19,7 +19,8 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
-  position: initial;
+  position: relative;
+  z-index: 9999;
 }
 nav .logo{
   color: #fff;
